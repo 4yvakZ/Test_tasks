@@ -21,9 +21,7 @@ public:
 	void wait(size_t taskId);
 	void waitAll();
 
-
 private:
-public:
 	void addThread();
 
 	std::atomic<bool> isQuitRequested{ false };
